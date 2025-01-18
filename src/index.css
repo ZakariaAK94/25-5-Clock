@@ -1,0 +1,149 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+.container
+{
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;  
+  justify-content: space-evenly;
+  align-items: center;
+  width: 500px;
+  max-width: 500px;
+}
+
+.container > h1
+{
+  text-align: center;
+  font-size: 45px;
+  color: aqua;
+}
+.section1
+{
+    display: flex;
+    gap: 50px;
+}
+
+.session-section > h3{
+  text-align: center;
+  font-size: 20px;
+  color: aqua;
+}
+
+.orderElement{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.orderElement > h6{
+  text-align: center;
+  font-size: 20px;
+  color: aqua;
+}
+
+button {
+  background-color: aqua;
+  font-size: 12px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background-color: #00cccc; /* Darker aqua for hover effect */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+button:active {
+  transform: scale(0.95); /* Press effect */
+}
+
+button .arrow-up,
+button .arrow-down {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+}
+
+button .arrow-up {
+  border-bottom: 8px solid black;
+}
+
+button .arrow-down {
+  border-top: 8px solid black;
+}
+
+.timer
+{
+  width: 60%;
+  height: 150px;
+  border: 5px solid aqua;
+  border-radius: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:2px;
+  margin-top: 30px;
+  color: white
+}
+.timer > h6{
+  font-size: 1.5rem;
+}
+
+.timing
+{
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+}
+
+.timing > span{
+  font-size: 3.5rem;
+}
+
+.btn-start-reset{
+  margin-top: 20px;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.btns{
+    background-color: aqua;
+    color: black;
+    font-size: 22px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+.btns:hover {
+    background-color: #00cccc; /* Darker aqua for hover effect */
+    transform: scale(1.05); /* Slight zoom effect */
+  }
+
+  .red{
+    color: red;
+  }
+  
