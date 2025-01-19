@@ -8,7 +8,7 @@
 ## Demo
 
 Check out the live version of the app here:  
-[**25+5 Clock - Live Demo**](https://ZakariaAK94.github.io/25-5-Clock/)
+[**25+5 Clock - Live Demo**](https://ZakariaAK94.github.io/25-5-clock/)
 
 
 
@@ -63,7 +63,6 @@ Follow these steps to set up the project locally:
 ## Usage
 
  * Adjust the session and break lengths using the controls provided.
- * Start or pause the timer using the "Start/Stop" button or by pressing the "O" key.
  * Reset the timer and settings using the "Reset" button.
  * Listen for audio alerts to signal the end of a session or break interval.
  * Utilize the app to implement the Pomodoro Technique or customize intervals to suit your workflow.
