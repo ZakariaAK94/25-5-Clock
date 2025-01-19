@@ -8,7 +8,7 @@
 ## Demo
 
 Check out the live version of the app here:  
-[**25+5 Clock - Live Demo**](https://ZakariaAK94.github.io/25-5-clock/)
+[**25+5 Clock - Live Demo**](https://ZakariaAK94.github.io/25-5-Clock/)
 
 
 
